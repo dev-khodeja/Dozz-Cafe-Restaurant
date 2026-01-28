@@ -50,22 +50,7 @@ login-bt ul{
 
 
 
-/* Start Coffee Style */
-.coffee{
-    text-align: center;
-    font-weight: bold;
-    font-size:40px;
-}
-.card .main-btn{
-    border:2px solid rgba(238, 104, 104,0.7);
-    padding:0.54rem;
-    padding-left:1.23rem;
-    padding-right: 1.23rem;
-    border-radius: 10px;
-    color:rgba(238, 104, 104,0.7);
-    text-decoration: none;
-}
-/* End Coffee Style */
+
 
 /* Start About Style */
  .about .about-image img{
@@ -184,3 +169,23 @@ footer .plane{
     color:black;
 }
 /* End Footer Style */
+#Coffees .card {
+  border: none;
+  border-radius: 15px;
+  overflow: hidden;
+  transition: 0.3s ease;
+}
+
+#Coffees .card:hover {
+  transform: translateY(-6px);
+}
+
+#Coffees .card-img-top {
+  height: 240px;
+  object-fit: cover;
+}
+
+#Coffees .btn {
+  border-radius: 25px;
+}
+
